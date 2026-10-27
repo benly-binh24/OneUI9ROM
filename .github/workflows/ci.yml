@@ -1,4 +1,4 @@
-name: CI
+name: Build ROM
 
 on:
   pull_request:
@@ -15,7 +15,7 @@ on:
       target:
         description: 'SDK37 Exynos2100 target (not device-qualified)'
         type: choice
-        default: t2s
+        default: c2s
         options:
           - o1s
           - t2s

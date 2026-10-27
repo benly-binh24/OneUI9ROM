@@ -17,6 +17,7 @@ on:
         type: choice
         default: c2s
         options:
+          - c2s
           - o1s
           - t2s
           - p3s
